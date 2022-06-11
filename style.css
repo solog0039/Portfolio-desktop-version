@@ -136,6 +136,10 @@
   color: #1c1a19;
 }
 
+.desk-line-recent {
+  display: none;
+}
+
 .line {
   height: auto;
   display: flex;
@@ -770,10 +774,14 @@ hr:first-child {
 
   /* recent works */
 
+  .recent-profesional {
+    background-color: white;
+  }
+
   .my-recent-works {
     display: flex;
     flex-direction: column;
-    margin-left: 3vw;
+    margin-left: 10vw;
     height: auto;
   }
 
@@ -784,6 +792,7 @@ hr:first-child {
     margin-left: 3vw;
     margin-right: 5vw;
     width: 92vw;
+    align-items: center;
   }
 
   .H1 {
@@ -795,15 +804,21 @@ hr:first-child {
     color: #091e42;
     flex: none;
     position: relative;
-    margin-left: 3vw;
+    margin-left: 0%;
     width: 30vw;
     margin-top: 0%;
   }
 
-  .line {
-    height: 1px;
+  .non-cards > img {
+    height: 2px;
+    position: relative;
     margin-left: 0%;
-    width: 50vw;
+    width: 40vw;
+  }
+
+  .line {
+    position: relative;
+    margin-left: 0%;
   }
 
   .cards-image-story {
@@ -861,23 +876,24 @@ hr:first-child {
   .buttons-0 {
     position: relative;
     margin-top: 10px;
-    height: 10px;
+    max-height: 80px;
   }
 
   .buttons-0 > li > button {
     height: 40px;
   }
 
-  .see-project {
-    position: relative;
+  .desk-see-pro-recent {
     margin-top: 0;
-    height: 5vh;
+    max-height: 50px;
+    width: 150px;
+    position: relative;
   }
 
-  .see-project > a {
+  .desk-see-pro-recent > a {
+    align-self: center;
     position: relative;
     margin-top: 0;
-    height: 5px;
   }
 
   /* profesional arts cards */
@@ -943,7 +959,7 @@ hr:first-child {
     display: flex;
     flex: 1;
     position: relative;
-    margin-top: 5%;
+    margin-top: 0%;
   }
 
   .buttons-1 > li > button {
@@ -963,13 +979,13 @@ hr:first-child {
     line-height: 24px;
     color: #fff;
     position: relative;
-    margin-top: 10vh;
+    margin-top: 7vh;
   }
 
   .desk2-p2 {
     position: relative;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-top: vh;
+    margin-bottom: 0%;
   }
 
   .desk-3 {
@@ -1277,5 +1293,19 @@ hr:first-child {
     position: relative;
     margin-left: 7vw;
     margin-right: 7vw;
+  }
+
+  .middle-line {
+    display: none;
+  }
+
+  .footer {
+    position: relative;
+    margin-top: 15vh;
+    margin-left: 25vw;
+  }
+
+  .bottom-line {
+    display: none;
   }
 }
