@@ -985,8 +985,8 @@ hr:first-child {
 
   .desk2-p2 {
     position: relative;
-    margin-top: 12vh;
-    margin-bottom: 10vh;
+    margin-top: 8vh;
+    margin-bottom: 3.5vh;
   }
 
   .desk-3 {
@@ -1015,8 +1015,8 @@ hr:first-child {
 
   .desk-3-p2 {
     position: relative;
-    margin-top: 10vh;
-    margin-bottom: 12vh;
+    margin-top: 8vh;
+    margin-bottom: 3.5vh;
   }
 
   .second-row {
@@ -1049,8 +1049,8 @@ hr:first-child {
 
   .desk-4-p2 {
     position: relative;
-    margin-top: 10vh;
-    margin-bottom: 12vh;
+    margin-top: 8vh;
+    margin-bottom: 3vh;
   }
 
   .desk-proj-4 {
@@ -1083,8 +1083,8 @@ hr:first-child {
 
   .desk-5-p2 {
     position: relative;
-    margin-top: 10vh;
-    margin-bottom: 12vh;
+    margin-top: 8vh;
+    margin-bottom: 3vh;
   }
 
   .desk-proj-5 {
@@ -1111,15 +1111,14 @@ hr:first-child {
     line-height: 32px;
     color: #fff;
     position: relative;
-    margin-top: 15vh;
-    margin-top: 7vh;
+    margin-top: 10vh;
     text-align: center;
   }
 
   .desk-6-p2 {
     position: relative;
-    margin-top: 10vh;
-    margin-bottom: 12vh;
+    margin-top: 5vh;
+    margin-bottom: 6vh;
   }
 
   .desk-proj-6 {
