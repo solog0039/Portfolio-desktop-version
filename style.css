@@ -936,6 +936,7 @@ hr:first-child {
   .see-project-1 {
     position: relative;
     margin-top: 30vh;
+    padding: 25px;
   }
 
   .desk-2 {
@@ -966,6 +967,12 @@ hr:first-child {
     border: 1px solid #8993a4;
     padding: 5px;
     height: 30px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
   }
 
   .desk-2 > div > h2 {
@@ -1140,7 +1147,7 @@ hr:first-child {
     background-image: url(image/Frame.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-position-x: 50vw;
+    background-position-x: 150%;
   }
 
   .me {
@@ -1297,10 +1304,16 @@ hr:first-child {
     display: flex;
     flex-direction: row;
     position: relative;
-    margin-left: 7vw;
+    margin-left: 10vw;
     margin-right: 7vw;
   }
-
+  
+  .forms > p {
+    position: relative;
+    width: 40vw;
+    text-align: left;
+    margin-left: 0;
+  }
   .middle-line {
     display: none;
   }
