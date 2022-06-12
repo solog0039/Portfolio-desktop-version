@@ -1304,11 +1304,19 @@ hr:first-child {
     display: flex;
     flex-direction: row;
     position: relative;
-    margin-left: 10vw;
+    margin-left: 5vw;
     margin-right: 7vw;
   }
 
-  .forms > p {
+  .forms > div > p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #262626;
     position: relative;
     width: 40vw;
     text-align: left;
