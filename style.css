@@ -967,7 +967,7 @@ hr:first-child {
     border: 1px solid #8993a4;
     padding: 5px;
     height: 30px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1307,13 +1307,14 @@ hr:first-child {
     margin-left: 10vw;
     margin-right: 7vw;
   }
-  
+
   .forms > p {
     position: relative;
     width: 40vw;
     text-align: left;
     margin-left: 0;
   }
+
   .middle-line {
     display: none;
   }
