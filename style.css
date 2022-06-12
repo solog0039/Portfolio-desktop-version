@@ -965,6 +965,7 @@ hr:first-child {
   .buttons-1 > li > button {
     border: 1px solid #8993a4;
     padding: 5px;
+    height: 30px;
   }
 
   .desk-2 > div > h2 {
@@ -984,8 +985,8 @@ hr:first-child {
 
   .desk2-p2 {
     position: relative;
-    margin-top: vh;
-    margin-bottom: 0%;
+    margin-top: 12vh;
+    margin-bottom: 10vh;
   }
 
   .desk-3 {
@@ -1014,8 +1015,8 @@ hr:first-child {
 
   .desk-3-p2 {
     position: relative;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 12vh;
   }
 
   .second-row {
@@ -1023,6 +1024,7 @@ hr:first-child {
     flex-direction: row;
     position: relative;
     margin-top: 10%;
+    margin-bottom: 100px;
   }
 
   .desk-4 {
@@ -1047,8 +1049,8 @@ hr:first-child {
 
   .desk-4-p2 {
     position: relative;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 12vh;
   }
 
   .desk-proj-4 {
@@ -1082,7 +1084,7 @@ hr:first-child {
   .desk-5-p2 {
     position: relative;
     margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-bottom: 12vh;
   }
 
   .desk-proj-5 {
@@ -1116,8 +1118,8 @@ hr:first-child {
 
   .desk-6-p2 {
     position: relative;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 12vh;
   }
 
   .desk-proj-6 {
@@ -1125,6 +1127,11 @@ hr:first-child {
   }
 
   /* about me */
+
+  .section-3 {
+    position: relative;
+    margin-top: 0%;
+  }
 
   .back-image {
     background-image: none;
